@@ -2,3 +2,4 @@ quandl
 pickle
 pandas
 matplotlib
+plotly
