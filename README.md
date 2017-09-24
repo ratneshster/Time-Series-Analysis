@@ -4,4 +4,4 @@
 
 #### Newsfeed:
 
-**24/09/2017** Currently, we are in the first stage of development. Testing certain methods in [Jupyter Notebook](http://jupyter.org/).
+**24/09/2017** Currently, we are in the first stage of development. Testing certain methods with [Jupyter Notebook](http://jupyter.org/).
