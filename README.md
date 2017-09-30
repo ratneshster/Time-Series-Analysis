@@ -6,7 +6,7 @@ The data itself comes from [Quandl](https://www.quandl.com/). This tutorial is u
 
 ## Cryptocurrency Time-Series Tutorials
 
-#### 001 Compare and display cryptocurrency data
+#### 001 Compare and Display
 Retrieve, compare and display Time-Series data of cryptocurrencies. This tutorial will show you a few basics how to handle Time-Series data using Pandas DataFrame.
 
 #### 002 Seasonal Decomposition
@@ -15,5 +15,5 @@ Calculate Seasonal Decomposition for cryptocurrency Time-Series using moving ave
 #### 003 Autocorrelation
 Compare autocorrelated Time-Series data of Bitcoin, Litecoin and Ethereum.
 
-#### 004 Trends and cycles in cryptocurrency data
+#### 004 Trends and Cycles
 Applying ARIMA (Autoregressive Integrated Moving Average) and stochastic cycle model to demonstrate the difference of trend from cycle on cryptocurrency data. 
