@@ -2,4 +2,5 @@ quandl
 pickle
 pandas
 matplotlib
+statsmodels
 plotly
