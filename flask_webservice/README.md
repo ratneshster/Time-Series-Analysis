@@ -1,1 +1,0 @@
-# Flask Webservice to demonstrate Cryptocurrency Time-Series
