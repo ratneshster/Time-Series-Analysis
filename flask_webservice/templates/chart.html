@@ -1,0 +1,48 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="utf-8" />
+    <title>{{cryptocurrency}} to {{currency}}</title>
+
+    <script src='static/Chart.min.js'></script>
+</head>
+<body>
+<h2>{{cryptocurrency}} to {{currency}} Time-Series from {{start_date}} to {{end_date}}</h2>
+<canvas id="chart" width="1000" height="400"></canvas>
+<script>
+    var barData = {
+   labels : [{% for item in labels %}
+                  "{{item}}",
+              {% endfor %}],
+   datasets : [
+      {
+            fillColor: "rgba(205,169,151,0.2)",
+            //fillColor: "rgba(151,187,205,0.2)",
+            strokeColor: "rgba(205,169,151,1)",
+            //strokeColor: "rgba(151,187,205,1)",
+            pointColor: "rgba(205,169,151,1)",
+            //pointColor: "rgba(151,187,205,1)",
+         data : [{% for item in values %}
+                      {{item}},
+                    {% endfor %}]
+      }
+      ]
+   }
+
+   // get bar chart canvas
+   var mychart = document.getElementById("chart").getContext("2d");
+
+   steps = 1
+   max = 1
+   // draw bar chart
+   new Chart(mychart).Line(barData, {
+        scaleOverride: true,
+        scaleSteps: steps,
+        scaleStepWidth: Math.ceil(max / steps),
+        scaleStartValue: 0,
+        scaleShowVerticalLines: true,
+        scaleShowGridLines : true,
+        barShowStroke : true,
+        scaleShowLabels: true
+   });
+
+</script>
+</body></html>
