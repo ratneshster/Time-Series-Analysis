@@ -20,6 +20,3 @@ Compare autocorrelated Time-Series data of Bitcoin, Litecoin and Ethereum.
 
 #### 005 Trends and Cycles
 Applying ARIMA (Autoregressive Integrated Moving Average) and stochastic cycle model to demonstrate the difference of trend from cycle on cryptocurrency data.<br><br><br>
-
-## 2. Flask Webservice for Data Visualization
-The second part of this tutorial is to create [Flask webservice](http://flask.pocoo.org/) to visualize our data in the web browser. Please note, this is an ongoing process and is not ready by now (**09/30/2017**)
