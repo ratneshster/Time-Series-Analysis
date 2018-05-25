@@ -17,8 +17,10 @@ Calculate Seasonal Decomposition for cryptocurrency Time-Series using moving ave
 Compare autocorrelated Time-Series data of Bitcoin, Litecoin and Ethereum.
 
 #### 005 Trends and Cycles
-Applying ARIMA (Autoregressive Integrated Moving Average), stochastic cycle model and fourier extrapolation to demonstrate the difference of trend from cycle on cryptocurrency data.<br><br><br>
+Applying ARIMA (Autoregressive Integrated Moving Average), stochastic cycle model and fourier extrapolation to demonstrate the difference of trend from cycle on cryptocurrency data.
 
 #### 006 DeTrending and Dickey Fuller Test
 Detrending Time-Series, to remove certain aspects we are assuming to cause the distortion. 
-Applying Augmented Dickey Fuller Test in order find if Time-Series is stationary or not.<br><br><br>
+Applying the Augmented Dickey Fuller Test. Time series are stationary if they do not have trend or seasonal effects. 
+Summary statistics calculated on the time series are consistent over time, like the mean or the variance of the observations. 
+The Augmented Dickey-Fuller test is a type of statistical test called a unit root test. The idea is to figure out how strongly a time series is defined by a trend.<br><br><br>
