@@ -19,7 +19,7 @@ Compare autocorrelated Time-Series data of Bitcoin, Litecoin and Ethereum.
 #### 005 Trends and Cycles
 Applying ARIMA (Autoregressive Integrated Moving Average), stochastic cycle model and fourier extrapolation to demonstrate the difference of trend from cycle on cryptocurrency data.
 
-#### 006 DeTrending and Dickey Fuller Test
+#### 006 Detrending and Dickey Fuller Test
 Detrending Time-Series, to remove certain aspects we are assuming to cause the distortion. 
 Applying the Augmented Dickey Fuller Test. Time series are stationary if they do not have trend or seasonal effects. 
 Summary statistics calculated on the time series are consistent over time, like the mean or the variance of the observations. 
